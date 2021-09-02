@@ -106,14 +106,14 @@ let swiper = new Swiper(".portfolio__container", {
 
 
 //scroll
-const sections=document.querySelectorAll("section[id]");
+const sections=document.querySelectorAll('section[id]');
 
 console.log(sections);
 
 function scrollActive(){
     const scrollY = window.pageYOffset;
 //    console.log(scrollY);
-    sections.forEach(current=>{
+    sections.forEach( current =>{
        const sectionHeight = current.offsetHeight;
        const sectionTop = current.offsetTop;
        let sectionId = current.getAttribute('id');
