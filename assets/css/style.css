@@ -302,6 +302,7 @@ img{
 }
 
 .home__description{
+    text-align: justify;
     margin-bottom: var(--mb-2);
 }
 
@@ -379,7 +380,7 @@ img{
 }
 
 .about__description{
-    text-align: center;
+    text-align: justify;
     margin-bottom: var(--mb-2-5);
 }
 .about__info{
@@ -478,10 +479,10 @@ img{
     width: 90%
 }
 .skills__css{
-    width: 70%
+    width: 80%
 }
 .skills__js{
-    width: 70%
+    width: 80%
 }
 .skills__bootstrap{
     width: 60%
@@ -597,7 +598,7 @@ img{
 
 /*services*/
 .services_container{
-    gar:1.5rem;
+    gap:1.5rem;
     grid-template-columns:repeat(2,1fr);
 }
 
@@ -712,6 +713,7 @@ img{
 }
 
 .portfolio__descripcion{
+    text-align: justify;
     margin-bottom: var(--mb-0-75);
 }
 /*swiped*/
@@ -771,6 +773,7 @@ img{
 }
 
 .testimonial__description{
+    text-align: justify;
     margin-bottom: var(--mb-2-5)
 }
 
