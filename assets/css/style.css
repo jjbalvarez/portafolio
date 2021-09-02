@@ -509,6 +509,22 @@ img{
 .skills__psg{
     width: 70%
 }
+/*skills 4*/
+.skills__json{
+    width: 75%
+}
+.skills__ajax{
+    width: 55%
+}
+.skills__exel{
+    width: 95%
+}
+.skills__poerBI{
+    width: 85%
+}
+.skills__sap{
+    width: 40%
+}
 
 .skills__close .skills__list{
     height: 0;
